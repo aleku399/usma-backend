@@ -1,0 +1,90 @@
+{
+  "kind": "collectionType",
+  "collectionName": "certificates",
+  "info": {
+    "singularName": "certificate",
+    "pluralName": "certificates",
+    "displayName": "certificate",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "regNumber": {
+      "type": "string"
+    },
+    "tin": {
+      "type": "string"
+    },
+    "certificateRegNumber": {
+      "type": "string"
+    },
+    "tradingLicense": {
+      "type": "string"
+    },
+    "supplierLegalName": {
+      "type": "string"
+    },
+    "businessName": {
+      "type": "string"
+    },
+    "plotNumber": {
+      "type": "string"
+    },
+    "streetName": {
+      "type": "string"
+    },
+    "buildingName": {
+      "type": "string"
+    },
+    "tradingCenter": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "county": {
+      "type": "string"
+    },
+    "businessActivity": {
+      "type": "string"
+    },
+    "regType": {
+      "type": "string"
+    },
+    "dateReg": {
+      "type": "string"
+    },
+    "expiryDate": {
+      "type": "string"
+    },
+    "nameSignatory": {
+      "type": "string"
+    },
+    "designationSign": {
+      "type": "string"
+    },
+    "regType1": {
+      "type": "string"
+    },
+    "dateReg1": {
+      "type": "string"
+    },
+    "expiryDate1": {
+      "type": "string"
+    },
+    "client": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::client.client"
+    },
+    "certificateNumber": {
+      "type": "string"
+    },
+    "issueDate": {
+      "type": "string"
+    }
+  }
+}
